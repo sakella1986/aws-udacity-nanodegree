@@ -1,0 +1,10 @@
+1. Elastic load balancing - no of application load balancers - to 1 from 2; processed bytes (EC2 instances) from 200 to 100 GB per hour
+2. Route 53 - HTTP checks within AWS and outside of AWS reduced to 20 from 100; basic checks within and outside of AWS reduced from 200 to 20
+3. S3 PUT, COPY, POST, LIST requests to S3 standard - decreased from 1000 to 500
+4. GET, SELECT and all other requests from S3 standard - decreased from 1000 to 500
+5. S3 standard storage decreased from 10 TB to 5TB
+6. Inbound data transfer Internet (free) to US east - Ohio 10 TB to 500 GB per month
+7. Outbound data transfer out of US east to Internet 10 TB to 500 GB per month
+8. VPC : number of active VPN connections : to 25 from 100 per day; average duration for each connection : to 3 hrs per day from 10.
+9. VPC: data processed per NAT gateway from 100 GB per month to 50 GB per month
+10. LCU - total processed bytes per hour - 2 GB per hour from 20

@@ -1,0 +1,17 @@
+﻿Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (Ohio),,Amazon EC2,0,246.64,2959.68,USD,"Operating system (Linux), Quantity (6), Pricing strategy (Standard Reserved Instances 1 Year No Upfront), Storage amount (30 GB), Instance type (t3.large)"
+My Estimate,US East (Ohio),,Amazon EC2,0,254.52,3054.24,USD,"Operating system (Linux), Quantity (6), Pricing strategy (Standard Reserved Instances 1 Year No Upfront), Storage amount (30 GB), Instance type (c5.large)"
+My Estimate,US East (Ohio),,Amazon Aurora MySQL-Compatible,0,2340.182,28082.18,USD,"Change records per statement (0.38), Instance Type (db.r6g.2xlarge), Nodes (2), Instance Family (Memory optimized), Pricing Model (Reserved), Lease Offering Term (1yr), Purchase Option (No Upfront), Storage amount (10 TB), Additional backup storage (15 TB)"
+My Estimate,US East (Ohio),,S3 Standard,0,118.03,1416.36,USD,S3 Standard storage (5 TB per month)
+My Estimate,US East (Ohio),,S3 Management and Analytics,0,0,0.00,USD,
+My Estimate,US East (Ohio),,Data Transfer,0,45,540.00,USD,"DT Inbound: Internet (500 GB per month), DT Outbound: Internet (500 GB per month)"
+My Estimate,US East (Ohio),,Amazon Route 53,0,1901,22812.00,USD,"Hosted Zones (2), Basic Checks Within AWS (20), Number of Elastic Network Interfaces (20)"
+My Estimate,US East (Ohio),,VPN Connection,0,374.5,4494.00,USD,"Working days per month (22), Number of subnet associations (4)"
+My Estimate,US East (Ohio),,Network Address Translation (NAT) Gateway,0,70.2,842.40,USD,Number of NAT Gateways (2)
+My Estimate,US East (Ohio),,Gateway Load Balancer,0,43.8,525.60,USD,"Number of Availability Zones that Gateway Load Balancer is deployed to (2), Number of Gateway Load Balancer Endpoints (2), Total processed bytes (2 GB per hour)"
+My Estimate,US East (Ohio),,Application Load Balancer,0,600.43,7205.16,USD,Number of Application Load Balancers (1)
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."

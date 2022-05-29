@@ -1,0 +1,12 @@
+1. Increased processed bytes from 20 to 200 GB per hour
+2. Route 53 basic checks outside AWS increased from 0 to 200
+3. Route 53 HTTPS checks within AWS and outside of AWS increased to 100 from 0
+4. S3 PUT, COPY, POST, LIST requests to S3 standard - increased to 1000 from 0
+5. GET, SELECT and all other requests from S3 standard - increased to 1000 from 0
+6. Data scanned by S3 select 100 GB per month
+7. Data returned by S3 select 100 GB per month from 0
+8. Inbound data transfer Internet (free) to US east - Ohio 10 TB per month
+9. Outbound data transfer out of US east to Internet 10 TB per month
+10. Added gateway load balancer for VPC, LCU load capacity units - 20 GB per hour
+11. Number of active client VPN connections -  increased to 100 per day from 25
+12. Aurora changed to db.x2g.8xlarge from db.x6g.2large with storage of 20 TB 
