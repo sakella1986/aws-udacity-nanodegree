@@ -1,0 +1,11 @@
+Based on the architecture diagram, and the steps you have taken so far to upload data and access the application web service, identify at least 2 obvious poor practices as it relates to security.  Include justification.
+
+# Poor practice 1
+WebAppSG has 5000 and 8080 ports opened. This provides HTTP base communication. As a publicly facing
+instance, it should be configured with 443 port for HTTPS based  communications.
+
+# Poor practice 2
+In the EC2 instance CloudFormation provisioning template, IAM Role (InstanceRole) is assigned
+to RecipeWebServiceInstance and AttackInstance. The access to s3 bucket resources for
+these two instances has to specified by a separate roles with appropriate permissions needed for
+specific buckets (least privilege principle).
